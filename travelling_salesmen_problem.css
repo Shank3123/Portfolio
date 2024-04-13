@@ -1,0 +1,60 @@
+/* navigation */
+.navbar{
+    background-color: black !important;
+    height: 5rem;
+  }
+  .navbar-brand{
+    color: #EEEEEE !important;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px !important;
+  }
+  /* body*/
+  .pt{
+    color: white;
+    font-size: 75px !important;
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    text-align:center;
+  }
+  .pts
+  {
+    text-align: center;  color: white;
+        font-size: 50px !important;
+        font-family: 'Patua One', cursive;
+        font-weight: 200;padding: 25px;
+  }
+  .pt1
+  {
+    color: white;
+    font-size: 50px !important;
+    font-family: 'Patua One';
+    font-weight: 200;
+    padding: 25px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .cnt{
+    font-size: 20px;
+    color: white;
+    padding: 10px 150px 10px 150px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 0px;
+  }
+  .v {
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: black;
+    transition: .5s;
+    border-radius: 5px;
+  }
+  .v:hover {
+    background: #F39C12;
+    color: black;
+  }
+  #ct{
+    background-color: black;
+    height: 1rem;
+    margin-top: 0rem;
+  }

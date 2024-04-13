@@ -1,0 +1,259 @@
+/* navigation */
+.nav-link{
+  color: white;
+}
+.navbar{
+  background-color: black !important;
+  height: 5rem;
+}
+.navbar-nav{
+  padding-left:  80px !important;
+}
+.nav-link{
+  color: #EEEEEE !important;
+  padding: 3px 50px 3px 50px !important;
+  font-size: 23px !important;
+  transition: transform .2s;
+  font-family: cursive;
+}
+.nav-link:hover {
+transform: scale(1.2);
+}
+.navbar-brand{
+  color: #EEEEEE !important;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px !important;
+}
+#home,#skills,#contact{
+  background-color: black;
+  height: auto;
+  width: auto;
+}
+#about,#projects{
+  background-color: black;
+  height: auto;
+  width: auto;
+}
+#aboutname,#projectname{
+  background-color: black;
+  height: 4rem;
+  margin-top: 0rem;
+}
+#skillname,#contactname{
+    background-color: black;
+    height: 4rem;
+    margin-top: 0rem;
+}
+.h1,.h11{
+  color: white;
+  text-align: center;
+  font-size: 75px !important;
+  font-family: 'Patua One', cursive;
+  font-weight: 200;
+}
+.h2,.h22{
+  color: white;
+  text-align: center;
+  font-size: 75px !important;
+  font-family: 'Patua One', cursive;
+  font-weight: 200;
+}
+.h1 .letter,.h11 .letter,.h2 .letter,.h22 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/* home */
+#profile{
+  width: 38rem;
+  height: auto;
+  border: white 3px solid;
+}
+.ht1 {
+  color: white;
+  font-size: 90px !important;
+  margin-top: 0.5rem;
+  font-family: 'Patua One', cursive;
+}
+.ht1 .letter {
+  display: inline-block;
+  line-height: 1rem;
+}
+.ht2{
+  color: white;
+  font-size: 90px !important;
+  margin-top: 0.5rem;
+  font-family: 'Patua One', cursive;
+}
+.ht2 .letter {
+  display: inline-block;
+  line-height: 1rem;
+}
+.ht3{
+  color: white;
+  font-size: 90px !important;
+  margin-top: 0.5rem;
+  font-family: 'Patua One', cursive;
+}
+hr{
+  width: 100% !important;
+  border-width: thick !important;
+  align-content:center !important;
+  border-color: white !important;
+  border-radius: 5px;
+  margin-top: 2rem !important;
+}
+
+.ml1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.ml1 .letter {
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #F39C12 ;
+  transform-origin: 0 0;
+}
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+
+/* About */
+#abp{
+  font-size: 20px;
+  color: white;
+  padding: 10px 150px 10px 150px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+.abh{
+  font-size: 40px;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Skills */
+#my-chart.bar {
+  --labels-size: 100px;
+}
+table{
+  align-items: center;
+  padding: 2em;
+  color: white;
+  height: 200px;
+  margin: 0 auto;
+}
+.skd {
+  transform-origin: left;
+  animation: revealing-bars 10s linear;
+}
+@keyframes revealing-bars {
+  0%  { transform: scaleX( 0 ); }
+  15% { transform: scaleX( 1 ); }
+}
+
+.button {
+  background-color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: black;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: #F39C12;
+  color: black;
+}
+
+/* Projects */
+.cont{
+  display: flex;
+  justify-content: space-evenly;
+}
+.crd{
+  width: 27%;
+  border: #F39C12 2px solid;
+  margin-bottom: 10vh;
+  padding-bottom: 10px;
+  background-color: black;
+}
+.pt {
+  color:white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5vh;
+}
+.pb {
+  margin-top: 9px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pi>img {
+  border-top: #fff 0.5px solid;
+  border-bottom: #fff 0.5px solid;
+  width: 100%;
+  height: 250px;
+}
+.v {
+  background-color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: black;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+.v:hover {
+  background: #F39C12;
+  color: black;
+}
+
+/* contact */
+.fa-brands{
+  color: white;
+  font-size: 50px;
+  padding: 2rem 1rem 2rem 1rem;
+}
+.fa-solid{
+  color: white;
+  font-size: 55px;
+  padding: 2rem 1rem 2rem 1rem;
+}
+#ct1,#ct2{
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+#ct2{
+  padding-top: 1rem;
+}
+.ct3{
+  color: white;
+}
